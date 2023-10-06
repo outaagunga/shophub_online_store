@@ -1,0 +1,33 @@
+
+.cart-pop-up-cont{
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index:30;
+    /* right:0;
+    left:0; */
+    inset:0;
+}
+.cart-pop-up{
+    height:400px;
+    width:600px;
+    background-color: #f0e68c;
+    position: absolute;
+    left:730px;
+    top:130px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px white;
+    overflow-y: scroll;
+}
+.cart-pop-up::-webkit-scrollbar{
+    display:none;
+}
+.cancel-btn{
+    width:38px;
+    position:absolute;
+    right:10px;
+    top:8px;
+    /* color:white; */
+}
+#hide-cart{
+    display:none;
+}

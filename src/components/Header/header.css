@@ -1,0 +1,184 @@
+.header-container {
+  /* background-color: black; */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background-color: rgb(209, 213, 214);
+  transition: background-color 0.6s ease-in-out;
+  padding: 10px 10px;
+  position: sticky;
+  z-index: 10;
+  /* margin-bottom: 20px; */
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+#header-id {
+  top: 60px;
+}
+.light-dark-mode {
+  width: 30px;
+}
+.search-section {
+  flex: 1;
+  max-width: 720px;
+  width: 0px;
+}
+#search-bar {
+  height: 39px;
+  max-width: 620px;
+  flex: 9;
+  width: 0px;
+  outline: none;
+  padding-left: 31px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+.search-btn {
+  flex: 1;
+  margin-left: 8px;
+  padding: 12px 10px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 8px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 128, 0.4);
+  cursor: pointer;
+}
+
+.search-bar-form {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+}
+.search-icon {
+  width: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 7px;
+}
+.cart-icon {
+  width: 30px;
+  position: relative;
+  margin-right: 7px;
+}
+.cart-counter {
+  position: absolute;
+  color: black;
+  background-color: orange;
+  border-radius: 50%;
+  padding: 1px 5px;
+  /* width:34px;
+    height:34px; */
+  font-size: 14px;
+  left: 21px;
+  top: -9px;
+}
+.right-section {
+  /* background-color: red; */
+  display: flex;
+  max-width: 270px;
+  flex: 1;
+  min-width: 150px;
+  justify-content: space-around;
+  align-items: center;
+  /* padding-right: 10px; */
+}
+#home-login-btn {
+  position: relative;
+  cursor: pointer;
+}
+#home-login-btn button,
+.sign-up-btn button {
+  /* margin-top: 10px; */
+  background-color: navy;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 13px;
+  padding-right: 14px;
+  padding-left: 28px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 128, 0.4);
+  cursor: pointer;
+}
+#change-login-btn button {
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 13px;
+  padding-right: 14px;
+  padding-left: 28px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 128, 0.4);
+  cursor: pointer;
+}
+.lock-icon {
+  width: 21px;
+  position: absolute;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.sign-up-btn {
+  position: relative;
+}
+.sign-up-btn button {
+  background-color: green;
+  cursor: pointer;
+  /* padding:4px 8px; */
+}
+.hide-sign-up-btn {
+  display: none;
+  cursor: pointer;
+}
+.in-icon {
+  width: 22px;
+  position: absolute;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hide-home {
+  display: none;
+}
+.activate-dark {
+  background-color: #001f3f;
+  color: white;
+  /* box-shadow: 1px 1px 4px white; */
+}
+.activate-dark-header {
+  background-color: #001f3f;
+  color: white;
+  box-shadow: 1px 1px 4px white;
+}
+.search-icon-dark {
+  color: black;
+}
+.icon-dark {
+  width: 25px;
+}
+/* .button-shadow button{
+    background-color: navy;
+    color:white;
+    font-size:15px;
+    font-weight:500;
+    padding:10px 13px;
+    padding-right: 14px;
+    padding-left: 28px;
+    border:none;
+    border-radius: 8px;
+    /* box-shadow: 1px 1px 4px rgba(0, 0, 128,0.4); */
+/* cursor:pointer;
+    box-shadow: 1px 1px 4px white;
+} */
